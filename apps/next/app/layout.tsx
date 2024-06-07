@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import { NextTamaguiProvider } from './NextTamaguiProvider'
 
 export const metadata: Metadata = {
-  title: 'Tamagui • App Router',
-  description: 'Tamagui, Solito, Expo & Next.js',
+  title: 'Stanley Jovel',
+  description: 'Stanley Jovel is a software engineer who loves to build things.',
   icons: '/favicon.ico',
 }
 
