@@ -1,4 +1,5 @@
-import { XStack, ProfileCard } from '@my/ui'
+import { XStack } from '@my/ui'
+import { ProfileCard } from './ProfileCard'
 
 export function HomeScreen() {
   return (
