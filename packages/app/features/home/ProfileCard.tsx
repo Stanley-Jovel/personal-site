@@ -20,19 +20,26 @@ export const ProfileCard = () => {
         <Avatar.Image source={{ uri: '/picture.png' }} />
       </Avatar>
       <YStack gap="$1">
-        <H1 ta="center" col="$color12">
+        <H1 ta="center" col="#171717">
           Stanley Jovel
         </H1>
-        <Paragraph col="$color10" ta="center">
+        <Paragraph col="#808080" ta="center">
           Full Stack and AI Engineer
         </Paragraph>
         <XStack gap="$1" jc="center">
           <Anchor h="$3" href="https://www.linkedin.com/in/luisjovel/" target="_blank">
-            <Button alignSelf="center" icon={Linkedin} chromeless size="$5" p="$3" />
+            <Button
+              alignSelf="center"
+              icon={Linkedin}
+              chromeless
+              size="$5"
+              p="$3"
+              color="#171717"
+            />
           </Anchor>
 
           <Anchor h="$3" href="https://github.com/Stanley-Jovel" target="_blank">
-            <Button alignSelf="center" icon={Github} chromeless size="$5" p="$3" />
+            <Button alignSelf="center" icon={Github} chromeless size="$5" p="$3" color="#171717" />
           </Anchor>
         </XStack>
       </YStack>
