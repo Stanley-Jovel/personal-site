@@ -12,11 +12,13 @@ export const ArticleList = ({ articles }: props) => {
       className="divide-y divide-gray-100 sm:w-10/12 sm:px-0 px-12 pt-5"
     >
       {articles.map((article) => (
-        <a href={article.url} target="_blank" rel="noopener noreferrer">
-          <li
-            key={article.url}
-            className="group flex justify-between gap-x-6 py-5 hover:shadow-sm hover:bg-gray-50 transition-colors duration-200 ease-in-out px-3 hover:cursor-pointer"
-          >
+        <a
+          key={article.url}
+          href={article.url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <li className="group flex justify-between gap-x-6 py-5 hover:shadow-sm hover:bg-gray-50 transition-colors duration-200 ease-in-out px-3 hover:cursor-pointer">
             <div className="flex min-w-0 gap-x-4">
               <div className="min-w-0 flex-auto">
                 <p className="mt-1 truncate text-2xs leading-5 text-gray-500">
