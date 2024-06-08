@@ -2,7 +2,7 @@ import Image from "next/image";
 import { GithubBlack, LinkedInBlack } from "@/icons";
 
 export const ProfileCard = () => (
-  <>
+  <div className="flex flex-col items-center">
     <div className="flex items-center justify-between">
       <Image
         src="/picture.png"
@@ -12,8 +12,10 @@ export const ProfileCard = () => (
         className="rounded-full"
       />
     </div>
-    <h1 className="text-4xl font-bold pt-10">Stanley Jovel</h1>
-    <p className="text-lg">Software and AI Engineer based in Seattle</p>
+    <h1 className="text-4xl font-bold pt-10 text-gray-900">Stanley Jovel</h1>
+    <p className="text-lg text-gray-900 text-center">
+      Software and AI Engineer based in Seattle
+    </p>
 
     <div className="flex pt-6">
       <a
@@ -32,5 +34,5 @@ export const ProfileCard = () => (
         <GithubBlack width={30} height={30} />
       </a>
     </div>
-  </>
+  </div>
 );

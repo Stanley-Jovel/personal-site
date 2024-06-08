@@ -9,7 +9,7 @@ export const ArticleList = ({ articles }: props) => {
   return (
     <ul
       role="list"
-      className="divide-y divide-gray-100 sm:w-10/12 sm:px-0 px-12 pt-5"
+      className="divide-y divide-gray-100 sm:w-10/12 sm:px-0 px-4 pt-5"
     >
       {articles.map((article) => (
         <a
