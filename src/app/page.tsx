@@ -1,21 +1,13 @@
-import Image from "next/image";
+import { ArticleList, ProfileCard } from "@/components";
+import { articles } from "@/data/articles";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-24">
-      <div className="z-10 w-full max-w-5xl items-center font-mono text-sm lg:flex justify-center	py-24">
+    <main className="flex min-h-screen flex-col items-center justify-between">
+      <div className="z-10 w-full max-w-3xl items-center font-mono text-sm lg:flex justify-center	py-24 border-x bg-white">
         <div className="flex flex-col items-center">
-          <div className="flex items-center justify-between">
-            <Image
-              src="/picture.png"
-              alt="Stanley Jovel"
-              width={150}
-              height={150}
-              className="rounded-full"
-            />
-          </div>
-          <h1 className="text-4xl font-bold">Stanley Jovel</h1>
-          <p className="text-lg">Software Engineer</p>
+          <ProfileCard />
+          <ArticleList articles={articles} />
         </div>
       </div>
     </main>
