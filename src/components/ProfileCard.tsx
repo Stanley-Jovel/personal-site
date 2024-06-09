@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { GithubBlack, LinkedInBlack } from "@/icons";
+import { Envelope, GithubBlack, LinkedInBlack } from "@/icons";
 
 export const ProfileCard = () => (
   <div className="flex flex-col items-center">
@@ -16,7 +16,13 @@ export const ProfileCard = () => (
     <p className="text-lg text-gray-900 text-center">
       Software and AI Engineer based in Seattle
     </p>
-
+    <a
+      href="https://docs.google.com/document/d/1c0pxMZJ5t-VS2NKYiqWsijJFsBFpdLvNz6LCpQKgHP8/edit?usp=sharing"
+      target="_blank"
+      className="text-blue-500 pt-2"
+    >
+      Resume
+    </a>
     <div className="flex pt-6">
       <a
         href="https://www.linkedin.com/in/luisjovel/"
@@ -30,8 +36,12 @@ export const ProfileCard = () => (
         href="https://github.com/Stanley-Jovel"
         target="_blank"
         rel="noreferrer"
+        className="pr-4"
       >
         <GithubBlack width={30} height={30} />
+      </a>
+      <a href="mailto:contact@stanleyjovel.com">
+        <Envelope width={30} height={30} />
       </a>
     </div>
   </div>

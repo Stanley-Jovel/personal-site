@@ -1,4 +1,4 @@
-import { ArticleList, ProfileCard } from "@/components";
+import { ArticleList, Footer, ProfileCard } from "@/components";
 import { articles } from "@/data/articles";
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
         <div className="flex flex-col items-center">
           <ProfileCard />
           <ArticleList articles={articles} />
+          <Footer />
         </div>
       </div>
     </main>
