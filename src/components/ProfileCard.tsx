@@ -17,7 +17,7 @@ export const ProfileCard = () => (
       Software and AI Engineer based in Seattle
     </p>
     <a
-      href="https://drive.google.com/file/d/1RUXtxbY0DJuXzWPOvG81fhpsPQioDzfp/view?usp=sharing"
+      href="/resume_stanley_jovel.pdf"
       target="_blank"
       className="text-blue-500 pt-2"
     >
