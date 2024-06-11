@@ -17,7 +17,7 @@ export const ArticleList = ({ articles }: props) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <li className="group flex justify-between gap-x-6 py-5 hover:shadow-sm hover:bg-gray-50 transition-colors duration-200 ease-in-out px-3 hover:cursor-pointer">
+            <li className="group flex justify-between gap-x-6 py-3 hover:shadow-sm hover:bg-gray-50 transition-colors duration-200 ease-in-out px-3 hover:cursor-pointer">
               <div className="flex min-w-0 gap-x-4">
                 <div className="min-w-0 flex-auto">
                   <p className="mt-1 truncate text-2xs leading-5 text-gray-500">
