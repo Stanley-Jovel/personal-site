@@ -8,7 +8,7 @@ type props = {
 export const ArticleList = ({ articles }: props) => {
   return (
     <section className="py-5 sm:w-10/12 sm:px-0 px-4">
-      <h2 className="font-bold">Articles/Projects:</h2>
+      <h2 className="font-bold text-gray-900">Articles/Projects:</h2>
       <ul role="list" className="divide-y divide-gray-100">
         {articles.map((article) => (
           <a

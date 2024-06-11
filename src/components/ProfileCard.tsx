@@ -17,7 +17,7 @@ export const ProfileCard = () => (
       Software and AI Engineer based in Seattle
     </p>
     <a
-      href="https://docs.google.com/document/d/1c0pxMZJ5t-VS2NKYiqWsijJFsBFpdLvNz6LCpQKgHP8/edit?usp=sharing"
+      href="https://drive.google.com/file/d/1RUXtxbY0DJuXzWPOvG81fhpsPQioDzfp/view?usp=sharing"
       target="_blank"
       className="text-blue-500 pt-2"
     >
