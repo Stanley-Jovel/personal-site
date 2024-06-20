@@ -8,7 +8,7 @@ export const articles = [
   },
   {
     name: "Mapping Urban Dynamics: Crime, Property, Subway Ridership, and Business in NYC",
-    url: "https://github.com/Stanley-Jovel/big-data-nyc-crime-urban-dynamics/blob/main/BDAD_Project_Report.pdf",
+    url: "https://github.com/Stanley-Jovel/big-data-nyc-crime-urban-dynamics/blob/main/NYC_research_paper.pdf",
     description:
       "Investigated relationships between crime rates, property values, subway ridership, and business perceptions using big data technologies such as Zeppelin notebooks, Spark SQL, Presto and Tableau.",
     domain: "github.com",
