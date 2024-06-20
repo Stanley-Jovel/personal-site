@@ -7,6 +7,13 @@ export const articles = [
     domain: "github.com",
   },
   {
+    name: "Mapping Urban Dynamics: Crime, Property, Subway Ridership, and Business in NYC",
+    url: "https://github.com/Stanley-Jovel/big-data-nyc-crime-urban-dynamics/blob/main/BDAD_Project_Report.pdf",
+    description:
+      "Investigated relationships between crime rates, property values, subway ridership, and business perceptions using big data technologies such as Zeppelin notebooks, Spark SQL, Presto and Tableau.",
+    domain: "github.com",
+  },
+  {
     name: "Self-Driving Car Learning with Behavior Cloning and PPO in Godot",
     url: "https://stanley-jovel.github.io/Self-Driving-Car-Project/",
     description:
