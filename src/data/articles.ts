@@ -1,5 +1,12 @@
 export const articles = [
   {
+    name: "Do Larger Context Windows Remove the Need for RAG?",
+    url: "https://www.genui.com/resources/inline-context-vs-vector-stores",
+    description:
+      "With AI models rapidly becoming capable of handling larger prompts, the question arises: Can we skip the Retrieval-Augmented Generation (RAG) method by including all necessary context directly in these larger prompts? What would this mean for performance and cost?",
+    domain: "genui.com",
+  },
+  {
     name: "Gunshot sound detection in urban environments",
     url: "https://github.com/Stanley-Jovel/Computer-Vision-Project/blob/cbf894ef548a3132e082c1aedf6e77bc12a6d66d/CV_Project_Gunshot_Detection_Ashwin_Karthikeyan_Stanley.pdf",
     description:
