@@ -36,9 +36,9 @@ export const articles = [
   },
   {
     name: "React Hooks Simplify Controlled Components",
-    url: "https://www.genui.com/resources/react-hooks-simplify",
+    url: "https://dev.to/stanleyjovel/simplify-controlled-components-with-react-hooks-23nn",
     description:
       "Learn how React hooks simplify building controlled input components.",
-    domain: "genui.com",
+    domain: "dev.to",
   },
 ];
