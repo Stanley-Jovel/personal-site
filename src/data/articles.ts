@@ -14,6 +14,13 @@ export const articles = [
     domain: "github.com",
   },
   {
+    name: "Comparison of AI Models for Celestial Body Classification",
+    url: "/classification_of_celestial_bodies.pdf",
+    description:
+      "Presented at the 2nd Central American Space Congress, this study compares two AI approaches for classifying stars, galaxies and quasars. Content is in Spanish.",
+    domain: "stanleyjovel.com",
+  },
+  {
     name: "Mapping Urban Dynamics: Crime, Property, Subway Ridership, and Business in NYC",
     url: "https://github.com/Stanley-Jovel/big-data-nyc-crime-urban-dynamics/blob/main/NYC_research_paper.pdf",
     description:
