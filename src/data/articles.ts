@@ -1,5 +1,12 @@
 export const articles = [
   {
+    name: "Building your own software development team with chatGPT and AutoGen",
+    url: "https://www.genui.com/resources/building-your-own-software-development-team-with-chatgpt-and-autogen",
+    description:
+      "Explore how untapped potential in AI will emerge through multi-agent collaboration, where multiple LLMs work together to enhance efficiency and innovation in software development and beyond.",
+    domain: "genui.com",
+  },
+  {
     name: "Do Larger Context Windows Remove the Need for RAG?",
     url: "https://www.genui.com/resources/inline-context-vs-vector-stores",
     description:
